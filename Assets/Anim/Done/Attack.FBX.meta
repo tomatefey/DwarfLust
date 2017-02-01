@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 5b75c9aa23c48a54599e0c1fb6887759
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: StealthChar
+    100004: StealthCharChest
+    100006: StealthCharHead
+    100008: StealthCharLArm1
+    100010: StealthCharLArm2
+    100012: StealthCharLArmCollarbone
+    100014: StealthCharLArmPalm
+    100016: StealthCharLIndex0
+    100018: StealthCharLIndex1
+    100020: StealthCharLIndex2
+    100022: StealthCharLLeg1
+    100024: StealthCharLLeg2
+    100026: StealthCharLLegAnkle
+    100028: StealthCharLLegPlatform
+    100030: StealthCharLMiddleFinger0
+    100032: StealthCharLMiddleFinger1
+    100034: StealthCharLMiddleFinger2
+    100036: StealthCharLPinky0
+    100038: StealthCharLPinky1
+    100040: StealthCharLPinky2
+    100042: StealthCharLRingFinger0
+    100044: StealthCharLRingFinger1
+    100046: StealthCharLRingFinger2
+    100048: StealthCharLThumb0
+    100050: StealthCharLThumb1
+    100052: StealthCharLThumb2
+    100054: StealthCharLToe
+    100056: StealthCharNeck
+    100058: StealthCharPelvis
+    100060: StealthCharRArm1
+    100062: StealthCharRArm2
+    100064: StealthCharRArmCollarbone
+    100066: StealthCharRArmPalm
+    100068: StealthCharRIndex0
+    100070: StealthCharRIndex1
+    100072: StealthCharRIndex2
+    100074: StealthCharRLeg1
+    100076: StealthCharRLeg2
+    100078: StealthCharRLegAnkle
+    100080: StealthCharRLegPlatform
+    100082: StealthCharRMiddleFinger0
+    100084: StealthCharRMiddleFinger1
+    100086: StealthCharRMiddleFinger2
+    100088: StealthCharRPinky0
+    100090: StealthCharRPinky1
+    100092: StealthCharRPinky2
+    100094: StealthCharRRingFinger0
+    100096: StealthCharRRingFinger1
+    100098: StealthCharRRingFinger2
+    100100: StealthCharRThumb0
+    100102: StealthCharRThumb1
+    100104: StealthCharRThumb2
+    100106: StealthCharRToe
+    100108: StealthCharSpine0
+    100110: StealthCharSpine1
+    400000: //RootNode
+    400002: StealthChar
+    400004: StealthCharChest
+    400006: StealthCharHead
+    400008: StealthCharLArm1
+    400010: StealthCharLArm2
+    400012: StealthCharLArmCollarbone
+    400014: StealthCharLArmPalm
+    400016: StealthCharLIndex0
+    400018: StealthCharLIndex1
+    400020: StealthCharLIndex2
+    400022: StealthCharLLeg1
+    400024: StealthCharLLeg2
+    400026: StealthCharLLegAnkle
+    400028: StealthCharLLegPlatform
+    400030: StealthCharLMiddleFinger0
+    400032: StealthCharLMiddleFinger1
+    400034: StealthCharLMiddleFinger2
+    400036: StealthCharLPinky0
+    400038: StealthCharLPinky1
+    400040: StealthCharLPinky2
+    400042: StealthCharLRingFinger0
+    400044: StealthCharLRingFinger1
+    400046: StealthCharLRingFinger2
+    400048: StealthCharLThumb0
+    400050: StealthCharLThumb1
+    400052: StealthCharLThumb2
+    400054: StealthCharLToe
+    400056: StealthCharNeck
+    400058: StealthCharPelvis
+    400060: StealthCharRArm1
+    400062: StealthCharRArm2
+    400064: StealthCharRArmCollarbone
+    400066: StealthCharRArmPalm
+    400068: StealthCharRIndex0
+    400070: StealthCharRIndex1
+    400072: StealthCharRIndex2
+    400074: StealthCharRLeg1
+    400076: StealthCharRLeg2
+    400078: StealthCharRLegAnkle
+    400080: StealthCharRLegPlatform
+    400082: StealthCharRMiddleFinger0
+    400084: StealthCharRMiddleFinger1
+    400086: StealthCharRMiddleFinger2
+    400088: StealthCharRPinky0
+    400090: StealthCharRPinky1
+    400092: StealthCharRPinky2
+    400094: StealthCharRRingFinger0
+    400096: StealthCharRRingFinger1
+    400098: StealthCharRRingFinger2
+    400100: StealthCharRThumb0
+    400102: StealthCharRThumb1
+    400104: StealthCharRThumb2
+    400106: StealthCharRToe
+    400108: StealthCharSpine0
+    400110: StealthCharSpine1
+    7400000: Attack_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'StealthCharChest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: StealthChar
+        weight: 0
+      - path: StealthCharLLegPlatform
+        weight: 0
+      - path: StealthCharPelvis
+        weight: 1
+      - path: StealthCharPelvis/StealthCharLLeg1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharLLeg1/StealthCharLLeg2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharLLeg1/StealthCharLLeg2/StealthCharLLegAnkle
+        weight: 1
+      - path: StealthCharPelvis/StealthCharLLeg1/StealthCharLLeg2/StealthCharLLegAnkle/StealthCharLToe
+        weight: 1
+      - path: StealthCharPelvis/StealthCharRLeg1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharRLeg1/StealthCharRLeg2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharRLeg1/StealthCharRLeg2/StealthCharRLegAnkle
+        weight: 1
+      - path: StealthCharPelvis/StealthCharRLeg1/StealthCharRLeg2/StealthCharRLegAnkle/StealthCharRToe
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLIndex0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLIndex0/StealthCharLIndex1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLIndex0/StealthCharLIndex1/StealthCharLIndex2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLMiddleFinger0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLMiddleFinger0/StealthCharLMiddleFinger1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLMiddleFinger0/StealthCharLMiddleFinger1/StealthCharLMiddleFinger2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLPinky0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLPinky0/StealthCharLPinky1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLPinky0/StealthCharLPinky1/StealthCharLPinky2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLRingFinger0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLRingFinger0/StealthCharLRingFinger1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLRingFinger0/StealthCharLRingFinger1/StealthCharLRingFinger2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLThumb0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLThumb0/StealthCharLThumb1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharLArmCollarbone/StealthCharLArm1/StealthCharLArm2/StealthCharLArmPalm/StealthCharLThumb0/StealthCharLThumb1/StealthCharLThumb2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharNeck
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharNeck/StealthCharHead
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRIndex0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRIndex0/StealthCharRIndex1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRIndex0/StealthCharRIndex1/StealthCharRIndex2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRMiddleFinger0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRMiddleFinger0/StealthCharRMiddleFinger1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRMiddleFinger0/StealthCharRMiddleFinger1/StealthCharRMiddleFinger2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRPinky0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRPinky0/StealthCharRPinky1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRPinky0/StealthCharRPinky1/StealthCharRPinky2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRRingFinger0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRRingFinger0/StealthCharRRingFinger1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRRingFinger0/StealthCharRRingFinger1/StealthCharRRingFinger2
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRThumb0
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRThumb0/StealthCharRThumb1
+        weight: 1
+      - path: StealthCharPelvis/StealthCharSpine0/StealthCharSpine1/StealthCharChest/StealthCharRArmCollarbone/StealthCharRArm1/StealthCharRArm2/StealthCharRArmPalm/StealthCharRThumb0/StealthCharRThumb1/StealthCharRThumb2
+        weight: 1
+      - path: StealthCharRLegPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: StealthCharPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharSpine0
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharSpine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLArm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLArm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLThumb0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLThumb1
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLThumb2
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLIndex0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLIndex1
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLIndex2
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLMiddleFinger0
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLMiddleFinger1
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLMiddleFinger2
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLRingFinger0
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLRingFinger1
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLRingFinger2
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLPinky0
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLPinky1
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharLPinky2
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRThumb0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRThumb1
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRThumb2
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRIndex0
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRIndex1
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRIndex2
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRMiddleFinger0
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRMiddleFinger1
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRMiddleFinger2
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRRingFinger0
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRRingFinger1
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRRingFinger2
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRPinky0
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRPinky1
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StealthCharRPinky2
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: human@attack05(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StealthChar
+      parentName: human@attack05(Clone)
+      position: {x: 0.0047044125, y: 0, z: 0.0058019715}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StealthCharLLegPlatform
+      parentName: human@attack05(Clone)
+      position: {x: -0.1076717, y: -0.03629061, z: -0.3249847}
+      rotation: {x: 0.5807627, y: -0.5807627, z: -0.40337908, w: 0.40337908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StealthCharPelvis
+      parentName: human@attack05(Clone)
+      position: {x: 0.0050791195, y: 0.8670733, z: 0.0025694652}
+      rotation: {x: 0.5155646, y: -0.5853934, z: -0.39264882, w: 0.48717004}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: StealthCharLLeg1
+      parentName: StealthCharPelvis
+      position: {x: -0, y: 0, z: 0.092286296}
+      rotation: {x: -0.05476415, y: 0.9398612, z: 0.3143438, w: 0.12186037}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: StealthCharLLeg2
+      parentName: StealthCharLLeg1
+      position: {x: -0.52455974, y: 0.000001586628, z: 0.0000009689331}
+      rotation: {x: 0.012390269, y: -0.024198841, z: 0.31962824, w: 0.947153}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: StealthCharLLegAnkle
+      parentName: StealthCharLLeg2
+      position: {x: -0.4279754, y: 0.000000018167496, z: 0}
+      rotation: {x: -0.10681894, y: -0.2864545, z: 0.8473602, w: -0.4341823}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: StealthCharLToe
+      parentName: StealthCharLLegAnkle
+      position: {x: -0.19889148, y: -0.000000054502486, z: 0.000000048446655}
+      rotation: {x: -6.393747e-10, y: -0.0000000037082941, z: 0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: StealthCharRLeg1
+      parentName: StealthCharPelvis
+      position: {x: 0.000000048446655, y: 0, z: -0.092286296}
+      rotation: {x: -0.016902504, y: 0.99929875, z: 0.028691884, w: -0.017120687}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: StealthCharRLeg2
+      parentName: StealthCharRLeg1
+      position: {x: -0.5245597, y: 0.0000015745163, z: -0.0000009931564}
+      rotation: {x: 0.024316158, y: -0.024115626, z: 0.31536585, w: 0.948352}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: StealthCharRLegAnkle
+      parentName: StealthCharRLeg2
+      position: {x: -0.4279754, y: 0.000000019681453, z: -0.000000024223327}
+      rotation: {x: 0.00044314557, y: 0.0014050769, z: 0.9188303, w: -0.3946502}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: StealthCharRToe
+      parentName: StealthCharRLegAnkle
+      position: {x: -0.19889148, y: -0.000000048446655, z: -0.00000009689331}
+      rotation: {x: -0.000000059895676, y: 0.0000000061741035, z: 3.6980212e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: StealthCharSpine0
+      parentName: StealthCharPelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0065580662, y: -0.00020537266, z: -0.007131524, w: 0.99995303}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: StealthCharSpine1
+      parentName: StealthCharSpine0
+      position: {x: -0.2394941, y: 0.000000012111664, z: 0}
+      rotation: {x: -0.20511682, y: -0.0068366416, z: -0.15961531, w: 0.9656103}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: StealthCharChest
+      parentName: StealthCharSpine1
+      position: {x: -0.2394941, y: 0.000000048446655, z: 0}
+      rotation: {x: -0.010092596, y: 0.024587924, z: 0.0023365365, w: 0.99964404}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: StealthCharLArmCollarbone
+      parentName: StealthCharChest
+      position: {x: 0.00000009689331, y: 0, z: 0.05481808}
+      rotation: {x: 0.0000002887557, y: 0.75831515, z: -0.00000027458407, w: 0.65188813}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: StealthCharLArm1
+      parentName: StealthCharLArmCollarbone
+      position: {x: -0.14628479, y: 0, z: 0}
+      rotation: {x: 0.50384027, y: -0.016422, z: 0.14298634, w: 0.85172194}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999988}
+    - name: StealthCharLArm2
+      parentName: StealthCharLArm1
+      position: {x: -0.24080443, y: 0, z: 0.000000048446655}
+      rotation: {x: 0.13660805, y: -0.03900946, z: 0.00094839337, w: 0.9898564}
+      scale: {x: 1.0000001, y: 0.9999981, z: 0.99999994}
+    - name: StealthCharLArmPalm
+      parentName: StealthCharLArm2
+      position: {x: -0.24212408, y: 0, z: -0.000000012111664}
+      rotation: {x: 0.97238386, y: -0.1008683, z: 0.17312056, w: 0.11968515}
+      scale: {x: 1.0000002, y: 0.9999969, z: 0.9999999}
+    - name: StealthCharLIndex0
+      parentName: StealthCharLArmPalm
+      position: {x: -0.082589775, y: 0.0009793491, z: 0.035307147}
+      rotation: {x: 0.03326078, y: 0.08741575, z: 0.038190242, w: 0.99488384}
+      scale: {x: 1.0000042, y: 0.99999124, z: 0.9999991}
+    - name: StealthCharLIndex1
+      parentName: StealthCharLIndex0
+      position: {x: -0.04245172, y: -0.000000024223327, z: 0}
+      rotation: {x: -0.0000005252656, y: 0.00000073015644, z: 0.013093349, w: 0.9999143}
+      scale: {x: 1.0000081, y: 0.9999821, z: 0.9999979}
+    - name: StealthCharLIndex2
+      parentName: StealthCharLIndex1
+      position: {x: -0.02895206, y: 0, z: 0}
+      rotation: {x: -0.00000016391166, y: 0.0000002839007, z: 0.5000035, w: 0.86602336}
+      scale: {x: 1.0000137, y: 0.99996674, z: 0.999996}
+    - name: StealthCharLMiddleFinger0
+      parentName: StealthCharLArmPalm
+      position: {x: -0.089179486, y: 0.0027239858, z: 0.016032912}
+      rotation: {x: -0.07068085, y: 0.08423449, z: 0.042707708, w: 0.9930181}
+      scale: {x: 1.0000046, y: 0.9999915, z: 1.0000001}
+    - name: StealthCharLMiddleFinger1
+      parentName: StealthCharLMiddleFinger0
+      position: {x: -0.048911717, y: -0.000000048446655, z: 0.000000024223327}
+      rotation: {x: 0.000000111758645, y: -0.0000001862644, z: 0.019638568, w: 0.9998071}
+      scale: {x: 1.000006, y: 0.99999005, z: 1.0000001}
+    - name: StealthCharLMiddleFinger2
+      parentName: StealthCharLMiddleFinger1
+      position: {x: -0.026387876, y: 0.000000048446655, z: 0}
+      rotation: {x: -0.0000002381222, y: 0.000000060390974, z: 0.50000244, w: 0.866024}
+      scale: {x: 1.0000095, y: 0.9999776, z: 0.99999905}
+    - name: StealthCharLPinky0
+      parentName: StealthCharLArmPalm
+      position: {x: -0.082598105, y: 0.000000024223327, z: -0.029992161}
+      rotation: {x: -0.19625916, y: 0.078387946, z: 0.050729286, w: 0.97609645}
+      scale: {x: 1.0000048, y: 0.9999906, z: 0.999999}
+    - name: StealthCharLPinky1
+      parentName: StealthCharLPinky0
+      position: {x: -0.030952858, y: 0, z: 0}
+      rotation: {x: 0.0036310984, y: 0.00062140793, z: 0.017473236, w: 0.9998406}
+      scale: {x: 1.0000069, y: 0.9999832, z: 0.9999977}
+    - name: StealthCharLPinky2
+      parentName: StealthCharLPinky1
+      position: {x: -0.021976518, y: 0, z: 0}
+      rotation: {x: -0.009731898, y: -0.02358402, z: 0.46090433, w: 0.887083}
+      scale: {x: 1.0000124, y: 0.99996775, z: 0.9999954}
+    - name: StealthCharLRingFinger0
+      parentName: StealthCharLArmPalm
+      position: {x: -0.08876803, y: 0.0055469726, z: -0.007498331}
+      rotation: {x: -0.053281773, y: 0.078381084, z: 0.0398163, w: 0.99470204}
+      scale: {x: 1.0000046, y: 0.9999956, z: 0.9999962}
+    - name: StealthCharLRingFinger1
+      parentName: StealthCharLRingFinger0
+      position: {x: -0.04522028, y: 0, z: 0}
+      rotation: {x: 0.00000035017717, y: -0.0000024810424, z: 0.07546178, w: 0.99714875}
+      scale: {x: 1.0000044, y: 0.9999957, z: 0.999996}
+    - name: StealthCharLRingFinger2
+      parentName: StealthCharLRingFinger1
+      position: {x: -0.025505686, y: 0.0031555728, z: 0.000000006055832}
+      rotation: {x: -0.00000022999976, y: 0.00000006239359, z: 0.50000083, w: 0.8660249}
+      scale: {x: 1.0000033, y: 0.9999918, z: 0.99999094}
+    - name: StealthCharLThumb0
+      parentName: StealthCharLArmPalm
+      position: {x: -0.018339869, y: -0.011065652, z: 0.028771257}
+      rotation: {x: -0.13559052, y: 0.38396198, z: 0.23999882, w: 0.8812428}
+      scale: {x: 1.0000038, y: 0.99999154, z: 0.9999991}
+    - name: StealthCharLThumb1
+      parentName: StealthCharLThumb0
+      position: {x: -0.046143115, y: -0.000000024223327, z: 0}
+      rotation: {x: 0.0000009685755, y: -0.012432903, z: 0.0000019408762, w: 0.99992275}
+      scale: {x: 1.000002, y: 0.99999005, z: 0.99999607}
+    - name: StealthCharLThumb2
+      parentName: StealthCharLThumb1
+      position: {x: -0.025840186, y: 0.000000072669984, z: -0.000000024223327}
+      rotation: {x: -0.00000024472226, y: -0.13052675, z: -0.000000032218434, w: 0.9914448}
+      scale: {x: 1.0000002, y: 0.99998003, z: 0.9999956}
+    - name: StealthCharNeck
+      parentName: StealthCharChest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.08853993, y: -0.018493395, z: -0.115852036, w: 0.9891395}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: StealthCharHead
+      parentName: StealthCharNeck
+      position: {x: -0.2060847, y: -0.000000048446655, z: 0}
+      rotation: {x: 0.09434454, y: 0.04632113, z: 0.239439, w: 0.9652059}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: StealthCharRArmCollarbone
+      parentName: StealthCharChest
+      position: {x: -0.00000009689331, y: 0, z: -0.05481808}
+      rotation: {x: 0.0000001736083, y: -0.75831515, z: 0.00000020195155, w: 0.65188813}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: StealthCharRArm1
+      parentName: StealthCharRArmCollarbone
+      position: {x: -0.14628482, y: 0, z: 0}
+      rotation: {x: -0.40572855, y: 0.08183199, z: -0.086057805, w: 0.9062461}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: StealthCharRArm2
+      parentName: StealthCharRArm1
+      position: {x: -0.24080448, y: 0, z: 0.000000024223327}
+      rotation: {x: -0.13480651, y: 0.037330844, z: -0.014287926, w: 0.99006546}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999993}
+    - name: StealthCharRArmPalm
+      parentName: StealthCharRArm2
+      position: {x: -0.24212408, y: 0, z: 0}
+      rotation: {x: 0.99299634, y: -0.075125545, z: -0.091180705, w: -0.0007743458}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999971}
+    - name: StealthCharRIndex0
+      parentName: StealthCharRArmPalm
+      position: {x: -0.08258972, y: 0.0009793976, z: -0.03530712}
+      rotation: {x: -0.04158407, y: -0.07427923, z: 0.04289158, w: 0.99544644}
+      scale: {x: 0.9999997, y: 1.0000008, z: 0.99999624}
+    - name: StealthCharRIndex1
+      parentName: StealthCharRIndex0
+      position: {x: -0.04245172, y: -0.000000024223327, z: 0.000000012111664}
+      rotation: {x: 0.0000006817278, y: 0.00000069290365, z: 0.01526816, w: 0.9998834}
+      scale: {x: 0.9999993, y: 1.0000015, z: 0.9999925}
+    - name: StealthCharRIndex2
+      parentName: StealthCharRIndex1
+      position: {x: -0.028952071, y: -0.000000048446655, z: 0}
+      rotation: {x: 0.00000017891645, y: -0.00000024284847, z: 0.46174827, w: 0.887011}
+      scale: {x: 0.9999986, y: 1.0000025, z: 0.999985}
+    - name: StealthCharRMiddleFinger0
+      parentName: StealthCharRArmPalm
+      position: {x: -0.0892244, y: 0.0022544167, z: -0.013391612}
+      rotation: {x: 0.0483349, y: -0.06903167, z: 0.0469295, w: 0.9953371}
+      scale: {x: 0.9999988, y: 1.0000002, z: 0.99999607}
+    - name: StealthCharRMiddleFinger1
+      parentName: StealthCharRMiddleFinger0
+      position: {x: -0.048911743, y: 0.000000024223327, z: 0.000000006055832}
+      rotation: {x: -0.00000076740946, y: 0.0000019446006, z: 0.013089181, w: 0.99991435}
+      scale: {x: 0.99999875, y: 1.0000012, z: 0.9999971}
+    - name: StealthCharRMiddleFinger2
+      parentName: StealthCharRMiddleFinger1
+      position: {x: -0.0263879, y: 0, z: 0.000000003027916}
+      rotation: {x: 0.00000026735822, y: -0.00000012331174, z: 0.46174833, w: 0.887011}
+      scale: {x: 0.9999981, y: 1.0000012, z: 0.999989}
+    - name: StealthCharRPinky0
+      parentName: StealthCharRArmPalm
+      position: {x: -0.08259801, y: 0.000000048446655, z: 0.029992124}
+      rotation: {x: 0.16809578, y: -0.063108414, z: 0.050201967, w: 0.9824668}
+      scale: {x: 0.99999964, y: 1.000001, z: 0.99999595}
+    - name: StealthCharRPinky1
+      parentName: StealthCharRPinky0
+      position: {x: -0.030952858, y: 0, z: 0.000000012111664}
+      rotation: {x: -0.0034208717, y: -0.0009812816, z: 0.019611333, w: 0.9998014}
+      scale: {x: 0.9999992, y: 1.0000011, z: 0.9999923}
+    - name: StealthCharRPinky2
+      parentName: StealthCharRPinky1
+      position: {x: -0.021976518, y: -0.00000009689331, z: 0}
+      rotation: {x: 0.006947648, y: 0.019161113, z: 0.42201242, w: 0.9063609}
+      scale: {x: 0.99999887, y: 1.000002, z: 0.99998474}
+    - name: StealthCharRRingFinger0
+      parentName: StealthCharRArmPalm
+      position: {x: -0.087215215, y: 0.00048756713, z: 0.011207498}
+      rotation: {x: 0.09716443, y: -0.065403014, z: 0.049948417, w: 0.9918603}
+      scale: {x: 0.9999999, y: 0.99999636, z: 1.0000001}
+    - name: StealthCharRRingFinger1
+      parentName: StealthCharRRingFinger0
+      position: {x: -0.0452203, y: 0.000000048446655, z: -0.000000024223327}
+      rotation: {x: 0.000000528991, y: -0.00000014901154, z: 0.07981443, w: 0.9968098}
+      scale: {x: 1.0000031, y: 0.99999404, z: 1}
+    - name: StealthCharRRingFinger2
+      parentName: StealthCharRRingFinger1
+      position: {x: -0.02550559, y: 0.003155718, z: -0.000000054502486}
+      rotation: {x: 0.00000023834967, y: -0.000000106912026, z: 0.46175, w: 0.8870101}
+      scale: {x: 1.0000046, y: 0.99998885, z: 0.9999962}
+    - name: StealthCharRThumb0
+      parentName: StealthCharRArmPalm
+      position: {x: -0.01833982, y: -0.011065603, z: -0.028771242}
+      rotation: {x: 0.08959896, y: -0.37005982, z: 0.2180822, w: 0.8985922}
+      scale: {x: 0.9999998, y: 1.0000012, z: 0.99999577}
+    - name: StealthCharRThumb1
+      parentName: StealthCharRThumb0
+      position: {x: -0.04614321, y: 0.000000024223327, z: 0}
+      rotation: {x: 0.00000089406916, y: 0.010255628, z: -0.000000003725288, w: 0.9999474}
+      scale: {x: 1.0000072, y: 1.0000012, z: 0.99998516}
+    - name: StealthCharRThumb2
+      parentName: StealthCharRThumb1
+      position: {x: -0.025840161, y: 0, z: 0}
+      rotation: {x: 0.00000023244219, y: 0.13052805, z: -0.000000053146643, w: 0.99144465}
+      scale: {x: 1.0000006, y: 1.0000024, z: 0.9999836}
+    - name: StealthCharRLegPlatform
+      parentName: human@attack05(Clone)
+      position: {x: 0.18886437, y: -0.03629054, z: 0.10691552}
+      rotation: {x: 0.5018936, y: -0.5018936, z: -0.49809924, w: 0.49809924}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7e5f38a8f21b9894cb0f272c9b0b5237,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
