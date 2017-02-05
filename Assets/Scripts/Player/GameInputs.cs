@@ -15,6 +15,12 @@ public class GameInputs : MonoBehaviour{
     public bool camModeInput;
     float counterCamModeInput = 0;
 
+    [Header("PAUSE")]
+    public KeyCode pause_Keyboard = KeyCode.Escape;
+    public KeyCode pause_Joystick = KeyCode.JoystickButton9;
+    public bool pauseInput;
+    GameObject pauseUI;
+
     [Header("CHANGE TARGET")]
     public string changeTarget_Keyboard = ("Mouse ScrollWheel");
     public string changeTarget_Joystick = ("Mouse X");
@@ -45,6 +51,8 @@ public class GameInputs : MonoBehaviour{
     void Start () {
         player = GetComponent<PlayerController>();
 
+        pauseUI = GameObject.FindGameObjectWithTag("Pause_UI");
+
         camModeInput = false;
         isMoving = false;
         runInput = false;
@@ -58,7 +66,7 @@ public class GameInputs : MonoBehaviour{
         ChangeTargetUpdate();
         MoveUpdate();
         MeleeAttackUpdate();
-        
+        PauseUpdate();
 	}
 
     void CamModeUpdate()
@@ -206,5 +214,31 @@ public class GameInputs : MonoBehaviour{
             }
         }
 
+    }
+
+    void PauseUpdate()
+    {
+        if (Input.GetKeyDown(pause_Keyboard) || Input.GetKeyDown(pause_Joystick))
+        {
+            pauseInput = !pauseInput;
+        }
+
+        if (pauseInput)
+        {
+            pauseUI.SetActive(true);
+            Time.timeScale = 0.0f;
+        }
+        else
+        {
+            pauseUI.SetActive(false);
+            Time.timeScale = 1.0f;
+        }
+    }
+
+    public void Resume()
+    {
+        pauseUI.SetActive(false);
+        Time.timeScale = 1.0f;
+        pauseInput = false;
     }
 }

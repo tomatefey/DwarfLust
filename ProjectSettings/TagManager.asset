@@ -13,6 +13,10 @@ TagManager:
   - PlayerMelee
   - PlayerBulletSource
   - PlayerBullet
+  - Pause_Menu
+  - Pause_UI
+  - Lose_UI
+  - Win_UI
   layers:
   - Default
   - TransparentFX
