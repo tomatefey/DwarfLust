@@ -17,6 +17,7 @@ TagManager:
   - Pause_UI
   - Lose_UI
   - Win_UI
+  - Enemy_Melee
   layers:
   - Default
   - TransparentFX
