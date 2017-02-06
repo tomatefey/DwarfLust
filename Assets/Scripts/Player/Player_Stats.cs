@@ -19,27 +19,17 @@ public class Player_Stats : MonoBehaviour {
     public float maxInv = 1.2f;
     float invCounter;
 
-    GameObject loseUI;
+
 
     // Use this for initialization
     void Start () {
         health = maxHealth;
         stamina = maxStamina;
         invCounter = maxInv;
-
-        loseUI = GameObject.FindGameObjectWithTag("Lose_UI");
-        loseUI.SetActive(false);
-    }
+	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(health <= 0)
-        {
-            loseUI.SetActive(true);
-            Time.timeScale = 0.0f;
-
-        }
-
         if (Input.GetKeyDown(KeyCode.E))
         {
             RecieveDmg(10);
@@ -58,17 +48,14 @@ public class Player_Stats : MonoBehaviour {
         if (invCounter == maxInv)
         {
             health -= dmg;
-            Debug.Log("Auch");
             invCounter -= Time.deltaTime;
         }
     }
-    
+
     void isInvulnerable()
     {
-        
         if (invCounter < maxInv) invCounter -= Time.deltaTime;
         if (invCounter < 0) invCounter = maxInv;
-        
     }
 
     public void RecieveStamina(float minus)

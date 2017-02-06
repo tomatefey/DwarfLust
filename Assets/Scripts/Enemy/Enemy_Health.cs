@@ -7,8 +7,6 @@ public class Enemy_Health : MonoBehaviour {
     public float maxHealth;
     public float health;
 
-    Animator anim; 
-
     [Header("Invulneravility")]
     public float maxInv = 1.2f;
     float invCounter;

@@ -5002,11 +5002,11 @@ GameObject:
   - component: {fileID: 1062698515}
   m_Layer: 5
   m_Name: Win_UI
-  m_TagString: Win_UI
+  m_TagString: Lose_UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1062698514
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5484,12 +5484,13 @@ Transform:
 --- !u!114 &1196779948
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 114642716110200814, guid: 016db260a52c74f45943dfb2b9de98a7,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1196779946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8002390fcd01eca43919809a9c8b5ecd, type: 3}
+  m_Script: {fileID: 11500000, guid: 152ec5263d205f940a6c21989513dc77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1196779949
@@ -8916,12 +8917,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1356578821}
-  - component: {fileID: 1835426991}
   - component: {fileID: 1835426993}
-  - component: {fileID: 1835426996}
-  - component: {fileID: 1835426994}
   - component: {fileID: 1835426992}
+  - component: {fileID: 1835426991}
+  - component: {fileID: 1835426994}
   - component: {fileID: 1835426995}
+  - component: {fileID: 1835426996}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -8987,7 +8988,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -9007,12 +9008,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDist: 3
-  isMeleeAttack: 0
-  moveSpeedMultiplier: 1
-  turnAmount: 0
-  groundCheckDistance: 0.2
-  timeCombat: 1
-  damage: 20
 --- !u!95 &1835426996
 Animator:
   serializedVersion: 3
@@ -9022,7 +9017,7 @@ Animator:
   m_GameObject: {fileID: 1835426990}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2ab0893f5bba9b243b65e309e78089d0, type: 3}
-  m_Controller: {fileID: 9100000, guid: 04d7ebffd28a2f146be94f31b7b9b067, type: 2}
+  m_Controller: {fileID: 9100000, guid: cdfc0210505888048802023ed495171f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9194,7 +9189,7 @@ MonoBehaviour:
   runCost: 0.08
   canMove: 0
   isMeleeAttack: 0
-  meleeDamage: 30
+  meleeDamage: 20
   stopAttackMelee: 2
   meleeCost: 20
   runTime: 0.2
@@ -9886,7 +9881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2015007442
 RectTransform:
   m_ObjectHideFlags: 0
