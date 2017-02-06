@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Anim_endMeleeAttack : StateMachineBehaviour {
+public class Anim_endEnemyMeleeAttack : StateMachineBehaviour {
 
 
 
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        PlayerController player = animator.GetComponent<PlayerController>();
+        Enemy_Behaviour enemy = animator.GetComponent<Enemy_Behaviour>();
 
-        player.isMeleeAttack = false;
+        enemy.isMeleeAttack = false;
 	}
 }
