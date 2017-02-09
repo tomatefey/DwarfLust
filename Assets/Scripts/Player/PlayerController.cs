@@ -42,8 +42,9 @@ public class PlayerController : MonoBehaviour {
     Vector3 vec;
 
     public bool canMove;
-    
+
     [Header("INPUTS")]
+    public bool godMode; 
     float inputCounter;
 
     [Header("MELEE ATTACK")]
@@ -117,8 +118,7 @@ public class PlayerController : MonoBehaviour {
         }
         else
         {
-
-            HandleLockOnMovement();
+             HandleLockOnMovement();
         }
         
     }
@@ -163,7 +163,8 @@ public class PlayerController : MonoBehaviour {
         camForward = Vector3.Scale(cam.forward, new Vector3(1, 0, 1)).normalized;
         camSide = Vector3.Scale(cam.right, new Vector3(1, 0, 1)).normalized;
         move = input.vertical * camForward + input.horizontal * cam.right;
-        
+
+        godMode = input.godMode;
     }
 
 
@@ -207,6 +208,11 @@ public class PlayerController : MonoBehaviour {
 
     void HandleLockOnMovement()
     {
+        if(nearEnemies.target == null)
+        {
+            lockTarget = false;
+        }
+
         if (move.magnitude > 1f) move.Normalize();
         move = transform.InverseTransformDirection(move);
         CheckGroundStatus();

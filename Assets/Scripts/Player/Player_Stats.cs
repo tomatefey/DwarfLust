@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Player_Stats : MonoBehaviour {
 
+    PlayerController playerCont;
+
     [Header("Health")]
     public float maxHealth;
     float health;
@@ -27,6 +29,8 @@ public class Player_Stats : MonoBehaviour {
         stamina = maxStamina;
         invCounter = maxInv;
 
+        playerCont = GetComponent<PlayerController>();
+
         loseUI = GameObject.FindGameObjectWithTag("Lose_UI");
         loseUI.SetActive(false);
     }
@@ -37,7 +41,6 @@ public class Player_Stats : MonoBehaviour {
         {
             loseUI.SetActive(true);
             Time.timeScale = 0.0f;
-
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -55,10 +58,9 @@ public class Player_Stats : MonoBehaviour {
 
     public void RecieveDmg(float dmg)
     {
-        if (invCounter == maxInv)
+        if (invCounter == maxInv && !playerCont.isDodge && !playerCont.godMode)
         {
             health -= dmg;
-            Debug.Log("Auch");
             invCounter -= Time.deltaTime;
         }
     }

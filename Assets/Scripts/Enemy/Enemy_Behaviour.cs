@@ -14,6 +14,7 @@ public class Enemy_Behaviour : MonoBehaviour {
     BoxCollider meleeColl;
     EnemyMeleeCollider meleeCollider;
 
+    Enemy_Health eHealth;
 
     [Header("Movement")]
     public float minDist;
@@ -28,6 +29,7 @@ public class Enemy_Behaviour : MonoBehaviour {
     float stationaryTurnSpeed;
     float movingTurnSpeed;
     public float turnAmount;
+    float lookInAt;
 
     public float groundCheckDistance;
 
@@ -48,6 +50,8 @@ public class Enemy_Behaviour : MonoBehaviour {
         meleeCollider = GameObject.FindGameObjectWithTag("Enemy_Melee").GetComponent<EnemyMeleeCollider>();
         meleeColl = GameObject.FindGameObjectWithTag("Enemy_Melee").GetComponent<BoxCollider>();
         meleeColl.enabled = false;
+
+        eHealth = GetComponent<Enemy_Health>();
 
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
@@ -87,7 +91,8 @@ public class Enemy_Behaviour : MonoBehaviour {
         forwardAmount = move.z;
 
         ApplyExtraTurnRotation();
-        
+
+        OnAnimatorMove();
         
         UpdateAnimator();
     }
@@ -95,41 +100,55 @@ public class Enemy_Behaviour : MonoBehaviour {
 
     void ApplyExtraTurnRotation()
     {
-        float turnSpeed = Mathf.Lerp(stationaryTurnSpeed, movingTurnSpeed, forwardAmount);
+
+        float turnSpeed = Mathf.Lerp(stationaryTurnSpeed, movingTurnSpeed, forwardAmount * Time.deltaTime);
         transform.Rotate(0, turnAmount * turnSpeed * Time.deltaTime, 0);
     }
 
 
     public void OnAnimatorMove()
     {
-        if(isGrounded && Time.deltaTime > 0)
+        if(!anim.GetBool("isMeleeAttack"))
         {
-            Vector3 v;
+            agent.Resume();
 
+            Vector3 v;
+            float forwardForce;
+
+
+            forwardForce = Quaternion.LookRotation(transform.position - target.position, Vector3.forward).y;
+
+            lookInAt = forwardForce / transform.rotation.y;
+            
+            lookInAt = Mathf.Clamp(lookInAt, 0.3f, 1);
+            anim.speed = lookInAt;
             if(agent.remainingDistance > agent.stoppingDistance * 2)  v = (anim.deltaPosition * moveSpeedMultiplier * 2) / Time.deltaTime;
             else v = (anim.deltaPosition * moveSpeedMultiplier) / Time.deltaTime;
 
             v.y = rb.velocity.y;
-            rb.velocity = v;
+            rb.velocity = Vector3.Lerp(rb.velocity, v, 2* Time.deltaTime);
+        }
+        else
+        {
+            agent.Stop();
         }
     }
 
     public void UpdateCombat()
     {
-        
-
         if(combatCounter > timeCombat)
         {
             isMeleeAttack = true;
-            meleeColl.enabled = true;
             meleeCollider.SetDamage(damage);
-            combatCounter = 0;
+
+            if(combatCounter > timeCombat + 0.3f)
+            {
+                meleeColl.enabled = true;
+                combatCounter = 0;
+            }
         }
-        if(!isMeleeAttack)
-        {
-            combatCounter += Time.deltaTime;
-            meleeColl.enabled = false;
-        }
+
+        combatCounter += Time.deltaTime;
     }
 
     void CheckGroundStatus()
@@ -154,7 +173,6 @@ public class Enemy_Behaviour : MonoBehaviour {
 
     void UpdateAnimator()
     {
-        // update the animator parameters
         if(agent.remainingDistance > agent.stoppingDistance * 2) anim.SetFloat("Forward", forwardAmount * 2.0f, 0.2f, Time.deltaTime);
         else anim.SetFloat("Forward", forwardAmount, 0.2f, Time.deltaTime);
 
@@ -170,5 +188,13 @@ public class Enemy_Behaviour : MonoBehaviour {
         {
             anim.speed = 1;
         }
+    }
+
+    public void EndMeleeAttack()
+    {
+        isMeleeAttack = false;
+        combatCounter = 0;
+        meleeColl.enabled = false;
+
     }
 }

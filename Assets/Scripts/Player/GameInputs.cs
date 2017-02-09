@@ -9,6 +9,11 @@ public class GameInputs : MonoBehaviour{
     bool PS4_Controller = false;
     PlayerController player;
 
+    [Header("GOD MODE")]
+    public KeyCode godMode_Keyboard = KeyCode.F10;
+    public KeyCode godMode_Joystick = KeyCode.JoystickButton9;
+    public bool godMode;
+
     [Header("CAMERA MODE")]
     public KeyCode changeCameraMode_Keyboard = KeyCode.Y;
     public KeyCode changeCameraMode_Joystick = KeyCode.JoystickButton9;
@@ -67,6 +72,7 @@ public class GameInputs : MonoBehaviour{
         MoveUpdate();
         MeleeAttackUpdate();
         PauseUpdate();
+        godModeUpdate();
 	}
 
     void CamModeUpdate()
@@ -214,6 +220,14 @@ public class GameInputs : MonoBehaviour{
             }
         }
 
+    }
+
+    void godModeUpdate()
+    {
+        if(Input.GetKeyUp(godMode_Keyboard) || Input.GetKeyUp(godMode_Joystick))
+        {
+            godMode = !godMode;
+        }
     }
 
     void PauseUpdate()

@@ -19,6 +19,7 @@ public class Enemy_Health : MonoBehaviour {
     void Start()
     {
         this.gameObject.SetActive(true);
+        anim = GetComponent<Animator>();
         health = maxHealth;
 
     }
@@ -47,6 +48,7 @@ public class Enemy_Health : MonoBehaviour {
         if (invCounter == maxInv)
         {
             health -= dmg;
+            anim.SetTrigger("Hit");
             invCounter -= Time.deltaTime;
         }
     }
