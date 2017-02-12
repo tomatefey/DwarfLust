@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 7e2f40f5c98960941a157031ce9bab60
+timeCreated: 1486901439
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armor_Low
+    100002: Body_Low
+    100004: Body_Low 1
+    100006: ChestPlate_Low
+    100008: CintaCuero_Low
+    100010: Cinturon
+    100012: EyeBrow
+    100014: EyeLashes
+    100016: Eyes
+    100018: Falda
+    100020: //RootNode
+    100022: Fayne_ToHigh23
+    100024: Fayne_ToHigh26_01
+    100026: Hair1:Group64051
+    100028: HeadRing
+    100030: LeatherSiut_Low
+    100032: MailSHirt_Low
+    100034: mono:Fayne_ToHigh27
+    100036: mono:Group1152
+    100038: Pantalones
+    100040: pCube3
+    100042: pCylinder18
+    100044: pCylinder4
+    100046: pCylinder7
+    100048: pCylinder8
+    100050: Pinchos
+    100052: PM3D_Sphere3D1
+    100054: polySurface3
+    100056: polySurface4
+    100058: ReversoBotas2
+    100060: ShoulderPad_lower_Low
+    100062: ShoulderPad_Upper_Low
+    400000: Armor_Low
+    400002: Body_Low
+    400004: Body_Low 1
+    400006: ChestPlate_Low
+    400008: CintaCuero_Low
+    400010: Cinturon
+    400012: EyeBrow
+    400014: EyeLashes
+    400016: Eyes
+    400018: Falda
+    400020: //RootNode
+    400022: Fayne_ToHigh23
+    400024: Fayne_ToHigh26_01
+    400026: Hair1:Group64051
+    400028: HeadRing
+    400030: LeatherSiut_Low
+    400032: MailSHirt_Low
+    400034: mono:Fayne_ToHigh27
+    400036: mono:Group1152
+    400038: Pantalones
+    400040: pCube3
+    400042: pCylinder18
+    400044: pCylinder4
+    400046: pCylinder7
+    400048: pCylinder8
+    400050: Pinchos
+    400052: PM3D_Sphere3D1
+    400054: polySurface3
+    400056: polySurface4
+    400058: ReversoBotas2
+    400060: ShoulderPad_lower_Low
+    400062: ShoulderPad_Upper_Low
+    2300000: Body_Low 1
+    2300002: ChestPlate_Low
+    2300004: CintaCuero_Low
+    2300006: Cinturon
+    2300008: EyeBrow
+    2300010: EyeLashes
+    2300012: Eyes
+    2300014: Falda
+    2300016: Fayne_ToHigh23
+    2300018: Fayne_ToHigh26_01
+    2300020: Hair1:Group64051
+    2300022: HeadRing
+    2300024: LeatherSiut_Low
+    2300026: MailSHirt_Low
+    2300028: mono:Fayne_ToHigh27
+    2300030: mono:Group1152
+    2300032: Pantalones
+    2300034: pCube3
+    2300036: pCylinder18
+    2300038: pCylinder4
+    2300040: pCylinder7
+    2300042: pCylinder8
+    2300044: Pinchos
+    2300046: PM3D_Sphere3D1
+    2300048: polySurface3
+    2300050: polySurface4
+    2300052: ReversoBotas2
+    2300054: ShoulderPad_lower_Low
+    2300056: ShoulderPad_Upper_Low
+    3300000: Body_Low 1
+    3300002: ChestPlate_Low
+    3300004: CintaCuero_Low
+    3300006: Cinturon
+    3300008: EyeBrow
+    3300010: EyeLashes
+    3300012: Eyes
+    3300014: Falda
+    3300016: Fayne_ToHigh23
+    3300018: Fayne_ToHigh26_01
+    3300020: Hair1:Group64051
+    3300022: HeadRing
+    3300024: LeatherSiut_Low
+    3300026: MailSHirt_Low
+    3300028: mono:Fayne_ToHigh27
+    3300030: mono:Group1152
+    3300032: Pantalones
+    3300034: pCube3
+    3300036: pCylinder18
+    3300038: pCylinder4
+    3300040: pCylinder7
+    3300042: pCylinder8
+    3300044: Pinchos
+    3300046: PM3D_Sphere3D1
+    3300048: polySurface3
+    3300050: polySurface4
+    3300052: ReversoBotas2
+    3300054: ShoulderPad_lower_Low
+    3300056: ShoulderPad_Upper_Low
+    4300000: MailSHirt_Low
+    4300002: ChestPlate_Low
+    4300004: LeatherSiut_Low
+    4300006: pCylinder8
+    4300008: pCylinder4
+    4300010: pCylinder7
+    4300012: CintaCuero_Low
+    4300014: Pantalones
+    4300016: Falda
+    4300018: polySurface4
+    4300020: polySurface3
+    4300022: Cinturon
+    4300024: pCylinder18
+    4300026: ShoulderPad_lower_Low
+    4300028: Pinchos
+    4300030: ShoulderPad_Upper_Low
+    4300032: ReversoBotas2
+    4300034: PM3D_Sphere3D1
+    4300036: Fayne_ToHigh26_01
+    4300038: Fayne_ToHigh23
+    4300040: pCube3
+    4300042: HeadRing
+    4300044: Body_Low
+    4300046: Eyes
+    4300048: EyeLashes
+    4300050: EyeBrow
+    4300052: mono:Group1152
+    4300054: mono:Fayne_ToHigh27
+    4300056: Hair1:Group64051
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
