@@ -20,7 +20,6 @@ public class HandleNearEnemies : MonoBehaviour {
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         input = GameObject.FindGameObjectWithTag("Player").GetComponent<GameInputs>();
-        Win_UI = GameObject.FindGameObjectWithTag("Win_UI");
     }
 	
 	// Update is called once per frame
@@ -97,19 +96,6 @@ public class HandleNearEnemies : MonoBehaviour {
         {
             GameObject enemy = go[i];
             AddTarget(enemy.transform);
-        }
-
-        if(go.Length == 0)
-        {
-            Win_UI.SetActive(true);
-            if(!(Time.timeScale <= 0))
-            {
-                Time.timeScale = 1f;
-            }
-        }
-        else
-        {
-            Win_UI.SetActive(false);
         }
     }
 

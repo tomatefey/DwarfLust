@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Enemy_Behaviour : MonoBehaviour {
 
     [Header ("Component")]
-    NavMeshAgent agent;
+    [HideInInspector]public NavMeshAgent agent;
     Transform target;
     Animator anim;
     Rigidbody rb;

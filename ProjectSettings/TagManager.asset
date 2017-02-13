@@ -21,6 +21,8 @@ TagManager:
   - Potion_UI
   - Coin
   - Coin_UI
+  - Spawner
+  - TimeCounter_UI
   layers:
   - Default
   - TransparentFX

@@ -54,8 +54,10 @@ public class Camera_Orbit : MonoBehaviour {
         x = angles.y;
         y = angles.x;
 
+        isTargeting = false;
+
         playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        enemyTarget = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
+        //enemyTarget = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
 
         input = GameObject.FindGameObjectWithTag("Player").GetComponent<GameInputs>();
         nearEnemies = GameObject.FindGameObjectWithTag("Player").GetComponent<HandleNearEnemies>();

@@ -26,11 +26,17 @@ public class Player_Stats : MonoBehaviour {
     public float staminaRate;
     float subtractStamina;
 
+
     [Header("Invulneravility")]
     public float maxInv = 1.2f;
     float invCounter;
 
     GameObject loseUI;
+
+    public Material matColor;
+    public Color normalColor;
+    public Color damagedColor;
+
 
     // Use this for initialization
     void Start () {
@@ -43,7 +49,7 @@ public class Player_Stats : MonoBehaviour {
 
         potionNumberUI = GameObject.FindGameObjectWithTag("Potion_UI").GetComponent<Text>();
         coinUI = GameObject.FindGameObjectWithTag("Coin_UI").GetComponent<Text>();
-
+        
         loseUI = GameObject.FindGameObjectWithTag("Lose_UI");
         loseUI.SetActive(false);
     }
@@ -62,6 +68,7 @@ public class Player_Stats : MonoBehaviour {
             {
                 RestoreHealth(potionRestoreValue);
                 potionNumber--;
+
             }
             
         }
@@ -82,6 +89,7 @@ public class Player_Stats : MonoBehaviour {
         {
             health -= dmg;
             invCounter -= Time.deltaTime;
+            this.transform.GetComponent
         }
     }
     
