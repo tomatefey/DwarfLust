@@ -16,6 +16,10 @@ public class Player_Stats : MonoBehaviour {
     public float potionRestoreValue;
     public float potionNumber;
 
+    [Header("Coin")]
+    Text coinUI;
+    float coins;
+
     [Header("Stamina")]
     public float maxStamina;
     float stamina;
@@ -38,6 +42,7 @@ public class Player_Stats : MonoBehaviour {
         input = GetComponent<GameInputs>();
 
         potionNumberUI = GameObject.FindGameObjectWithTag("Potion_UI").GetComponent<Text>();
+        coinUI = GameObject.FindGameObjectWithTag("Coin_UI").GetComponent<Text>();
 
         loseUI = GameObject.FindGameObjectWithTag("Lose_UI");
         loseUI.SetActive(false);
@@ -61,6 +66,7 @@ public class Player_Stats : MonoBehaviour {
             
         }
         potionNumberUI.text = potionNumber.ToString();
+        coinUI.text = coins.ToString();
 
         if (stamina >= 100) stamina = 100;
         if (stamina < 0) stamina = 0;
@@ -116,5 +122,10 @@ public class Player_Stats : MonoBehaviour {
         {
             health ++;
         }
+    }
+
+    public void GetMoney(int value)
+    {
+        coins += value;
     }
 }

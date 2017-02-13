@@ -15,12 +15,16 @@ public class Enemy_Health : MonoBehaviour {
 
     public bool isTarget;
 
+    public GameObject coin;
+
     // Use this for initialization
     void Start()
     {
         this.gameObject.SetActive(true);
         anim = GetComponent<Animator>();
         health = maxHealth;
+
+        //coin = GameObject.FindGameObjectWithTag("Coin");
 
     }
 
@@ -34,6 +38,7 @@ public class Enemy_Health : MonoBehaviour {
 
     public void Death()
     {
+        Instantiate(coin, this.transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
     }
 

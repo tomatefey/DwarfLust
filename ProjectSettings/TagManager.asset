@@ -19,6 +19,8 @@ TagManager:
   - Win_UI
   - Enemy_Melee
   - Potion_UI
+  - Coin
+  - Coin_UI
   layers:
   - Default
   - TransparentFX
