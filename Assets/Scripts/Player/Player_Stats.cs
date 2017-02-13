@@ -80,6 +80,10 @@ public class Player_Stats : MonoBehaviour {
         else stamina += staminaRate* Time.deltaTime;
 
         isInvulnerable();
+
+        if(matColor.color != normalColor) {
+            matColor.color = Color.Lerp(matColor.color, normalColor, 1 * Time.deltaTime);
+        } 
     }
     
 
@@ -89,7 +93,7 @@ public class Player_Stats : MonoBehaviour {
         {
             health -= dmg;
             invCounter -= Time.deltaTime;
-            this.transform.GetComponent
+            matColor.color = damagedColor;
         }
     }
     

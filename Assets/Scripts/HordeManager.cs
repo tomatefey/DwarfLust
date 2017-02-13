@@ -10,6 +10,7 @@ public class HordeManager : MonoBehaviour {
     public GameObject prefabBerserker;
     int index;
     GameObject[] enemyBerserker;
+    HandleNearEnemies nearEnemies;
     
     GameObject spawner_01;
 
@@ -33,6 +34,8 @@ public class HordeManager : MonoBehaviour {
         timeCounter_UI = GameObject.FindGameObjectWithTag("TimeCounter_UI").GetComponent<Text>();
         winUI = GameObject.FindGameObjectWithTag("Win_UI");
 
+        nearEnemies = GameObject.FindGameObjectWithTag("Player").GetComponent<HandleNearEnemies>();
+
         enemyBerserker = new GameObject[indexArray];
         for(int i = 0; i < indexArray; i++)
         {
@@ -47,7 +50,7 @@ public class HordeManager : MonoBehaviour {
         {
             hordeIndex++;
             timeCounter = 0;
-            maxCounter = 15 * hordeIndex;
+            maxCounter = 10 * hordeIndex;
             NextHorde();
         }
         else
@@ -57,9 +60,10 @@ public class HordeManager : MonoBehaviour {
 
         timeCounter_UI.text = timeCounter.ToString();
 
-        if(hordeIndex > 3)
+        if(hordeIndex > 1 && nearEnemies.targets.Count < 1)
         {
             winUI.SetActive(true);
+            Time.timeScale = 0.0f;
         }
         else
         {

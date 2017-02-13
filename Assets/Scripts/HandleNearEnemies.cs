@@ -7,7 +7,7 @@ public class HandleNearEnemies : MonoBehaviour {
     PlayerController player;
     GameInputs input;
 
-    List<Transform> targets = new List<Transform>();
+    public List<Transform> targets = new List<Transform>();
     public GameObject[] go;
 
     [HideInInspector]public Vector3 target;

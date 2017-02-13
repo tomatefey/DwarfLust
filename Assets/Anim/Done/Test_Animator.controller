@@ -57,18 +57,7 @@ AnimatorController:
     m_IKPass: 1
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!114 &114031770758106812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2900341ec085b24698aff397d3c0906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114216863595149914
+--- !u!114 &114112246522832058
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -77,6 +66,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d193f00574d26ca419c10cd5541f461f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114642906904356592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2900341ec085b24698aff397d3c0906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114667183144141216
@@ -1379,7 +1379,7 @@ AnimatorState:
   - {fileID: 1101655715205514204}
   - {fileID: 1101253205637031240}
   m_StateMachineBehaviours:
-  - {fileID: 114216863595149914}
+  - {fileID: 114112246522832058}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -1452,7 +1452,7 @@ AnimatorState:
   - {fileID: 1101158800861855596}
   - {fileID: 1101313290298073602}
   m_StateMachineBehaviours:
-  - {fileID: 114031770758106812}
+  - {fileID: 114642906904356592}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
