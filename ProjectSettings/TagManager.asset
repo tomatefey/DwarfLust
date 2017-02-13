@@ -18,6 +18,7 @@ TagManager:
   - Lose_UI
   - Win_UI
   - Enemy_Melee
+  - Potion_UI
   layers:
   - Default
   - TransparentFX

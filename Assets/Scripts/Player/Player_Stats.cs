@@ -6,10 +6,15 @@ using UnityEngine.UI;
 public class Player_Stats : MonoBehaviour {
 
     PlayerController playerCont;
+    GameInputs input;
 
     [Header("Health")]
     public float maxHealth;
     float health;
+
+    Text potionNumberUI;
+    public float potionRestoreValue;
+    public float potionNumber;
 
     [Header("Stamina")]
     public float maxStamina;
@@ -30,6 +35,9 @@ public class Player_Stats : MonoBehaviour {
         invCounter = maxInv;
 
         playerCont = GetComponent<PlayerController>();
+        input = GetComponent<GameInputs>();
+
+        potionNumberUI = GameObject.FindGameObjectWithTag("Potion_UI").GetComponent<Text>();
 
         loseUI = GameObject.FindGameObjectWithTag("Lose_UI");
         loseUI.SetActive(false);
@@ -43,10 +51,16 @@ public class Player_Stats : MonoBehaviour {
             Time.timeScale = 0.0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (input.potionInput)
         {
-            RecieveDmg(10);
+            if(potionNumber > 0)
+            {
+                RestoreHealth(potionRestoreValue);
+                potionNumber--;
+            }
+            
         }
+        potionNumberUI.text = potionNumber.ToString();
 
         if (stamina >= 100) stamina = 100;
         if (stamina < 0) stamina = 0;
@@ -94,5 +108,13 @@ public class Player_Stats : MonoBehaviour {
         newSta -= minus;
         if (newSta >= 0) return true;
         else return false;
+    }
+
+    void RestoreHealth(float value)
+    {
+        for(float i = value; health <= maxHealth && i > 0; i--)
+        {
+            health ++;
+        }
     }
 }

@@ -22,9 +22,14 @@ public class GameInputs : MonoBehaviour{
 
     [Header("PAUSE")]
     public KeyCode pause_Keyboard = KeyCode.Escape;
-    public KeyCode pause_Joystick = KeyCode.JoystickButton9;
+    public KeyCode pause_Joystick = KeyCode.JoystickButton7;
     public bool pauseInput;
     GameObject pauseUI;
+
+    [Header("POTION")]
+    public KeyCode potion_Keyboard = KeyCode.Escape;
+    public KeyCode potion_Joystick = KeyCode.JoystickButton3;
+    public bool potionInput;
 
     [Header("CHANGE TARGET")]
     public string changeTarget_Keyboard = ("Mouse ScrollWheel");
@@ -72,7 +77,8 @@ public class GameInputs : MonoBehaviour{
         MoveUpdate();
         MeleeAttackUpdate();
         PauseUpdate();
-        godModeUpdate();
+        GodModeUpdate();
+        PotionUpdate();
 	}
 
     void CamModeUpdate()
@@ -99,7 +105,7 @@ public class GameInputs : MonoBehaviour{
         string[] names = Input.GetJoystickNames();
         for (int x = 0; x < names.Length; x++)
         {
-            if (names[x].Length == 19)
+            if (names[x].Length > 0)
             {
                 PS4_Controller = true;
             }
@@ -222,7 +228,7 @@ public class GameInputs : MonoBehaviour{
 
     }
 
-    void godModeUpdate()
+    void GodModeUpdate()
     {
         if(Input.GetKeyUp(godMode_Keyboard) || Input.GetKeyUp(godMode_Joystick))
         {
@@ -246,6 +252,18 @@ public class GameInputs : MonoBehaviour{
         {
             pauseUI.SetActive(false);
             Time.timeScale = 1.0f;
+        }
+    }
+
+    void PotionUpdate()
+    {
+        if ((Input.GetKeyUp(potion_Keyboard) || Input.GetKeyUp(potion_Joystick)))
+        {
+            potionInput = true;
+        }
+        else
+        {
+            potionInput = false;
         }
     }
 
