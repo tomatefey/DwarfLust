@@ -7,6 +7,7 @@ public class Player_Stats : MonoBehaviour {
 
     PlayerController playerCont;
     GameInputs input;
+    ParticleController partCont;
 
     [Header("Health")]
     public float maxHealth;
@@ -46,6 +47,7 @@ public class Player_Stats : MonoBehaviour {
 
         playerCont = GetComponent<PlayerController>();
         input = GetComponent<GameInputs>();
+        partCont = GameObject.FindGameObjectWithTag("ParticleController").GetComponent<ParticleController>();
 
         potionNumberUI = GameObject.FindGameObjectWithTag("Potion_UI").GetComponent<Text>();
         coinUI = GameObject.FindGameObjectWithTag("Coin_UI").GetComponent<Text>();
@@ -67,6 +69,7 @@ public class Player_Stats : MonoBehaviour {
             if(potionNumber > 0)
             {
                 RestoreHealth(potionRestoreValue);
+                partCont.SpawnHealingParticle(this.transform.position);
                 potionNumber--;
 
             }
@@ -93,6 +96,7 @@ public class Player_Stats : MonoBehaviour {
         {
             health -= 5;
             invCounter -= Time.deltaTime;
+            partCont.SpawnDamagedParticle(this.transform.position);
             matColor.color = damagedColor;
         }
     }

@@ -13,6 +13,8 @@ public class Enemy_Health : MonoBehaviour {
     public float maxInv = 1.2f;
     float invCounter;
 
+    ParticleController partCont;
+
     public bool isTarget;
 
     public GameObject coin;
@@ -24,7 +26,7 @@ public class Enemy_Health : MonoBehaviour {
         anim = GetComponent<Animator>();
         health = maxHealth;
 
-        //coin = GameObject.FindGameObjectWithTag("Coin");
+        partCont = GameObject.FindGameObjectWithTag("ParticleController").GetComponent<ParticleController>();
 
     }
 
@@ -54,6 +56,7 @@ public class Enemy_Health : MonoBehaviour {
         {
             health -= dmg;
             anim.SetTrigger("Hit");
+            partCont.SpawnDamagedParticle(this.transform.position);
             invCounter -= Time.deltaTime;
         }
     }

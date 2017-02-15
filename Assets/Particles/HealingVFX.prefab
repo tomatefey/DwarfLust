@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4260223420014508}
   - component: {fileID: 198422401287861916}
   - component: {fileID: 199331260916341356}
+  - component: {fileID: 114339607502372106}
   m_Layer: 0
   m_Name: HealingVFX
   m_TagString: Untagged
@@ -72,6 +73,18 @@ Transform:
   m_Father: {fileID: 4260223420014508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114339607502372106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1182960121968248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd109ca8ec0ec438d2d842d0b2fc74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTime: 1.2
 --- !u!198 &198422401287861916
 ParticleSystem:
   m_ObjectHideFlags: 1
