@@ -60,7 +60,7 @@ public class HordeManager : MonoBehaviour {
 
         timeCounter_UI.text = timeCounter.ToString();
 
-        if(hordeIndex > 1 && nearEnemies.targets.Count < 1)
+        if(hordeIndex > 4 && nearEnemies.targets.Count < 1)
         {
             winUI.SetActive(true);
             Time.timeScale = 0.0f;
@@ -75,11 +75,14 @@ public class HordeManager : MonoBehaviour {
     {
         for(int i = 0; i < hordeIndex; i++)
         {
-            enemyBerserker[index].transform.position = spawner_01.transform.position;
-            enemyBerserker[index].SetActive(true);
+            if (hordeIndex < 5)
+            {
+                enemyBerserker[index].transform.position = spawner_01.transform.position;
+                enemyBerserker[index].SetActive(true);
 
-            index++;
-            if(index >= enemyBerserker.Length) index = 0;
+                index++;
+                if (index >= enemyBerserker.Length) index = 0;
+            }
         }
             
     }

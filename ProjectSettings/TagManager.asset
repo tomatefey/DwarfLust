@@ -23,6 +23,8 @@ TagManager:
   - Coin_UI
   - Spawner
   - TimeCounter_UI
+  - GodMode_UI
+  - EaseIn_UI
   layers:
   - Default
   - TransparentFX

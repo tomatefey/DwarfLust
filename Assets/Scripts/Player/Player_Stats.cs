@@ -91,7 +91,7 @@ public class Player_Stats : MonoBehaviour {
     {
         if (invCounter == maxInv && !playerCont.isDodge && !playerCont.godMode)
         {
-            health -= dmg;
+            health -= 5;
             invCounter -= Time.deltaTime;
             matColor.color = damagedColor;
         }

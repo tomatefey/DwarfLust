@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameInputs : MonoBehaviour{
 
-    public float maxTime = 0.1f;
+    public float maxTime = 0.05f;
 
     bool PS4_Controller = false;
     PlayerController player;
+    HandleNearEnemies nearEnemies;
 
     [Header("GOD MODE")]
     public KeyCode godMode_Keyboard = KeyCode.F10;
     public KeyCode godMode_Joystick = KeyCode.JoystickButton9;
     public bool godMode;
+    GameObject godModeUI;
 
     [Header("CAMERA MODE")]
     public KeyCode changeCameraMode_Keyboard = KeyCode.Y;
@@ -63,6 +66,10 @@ public class GameInputs : MonoBehaviour{
 
         pauseUI = GameObject.FindGameObjectWithTag("Pause_UI");
 
+        nearEnemies = GameObject.FindGameObjectWithTag("Player").GetComponent<HandleNearEnemies>();
+
+        godModeUI = GameObject.FindGameObjectWithTag("GodMode_UI");
+
         camModeInput = false;
         isMoving = false;
         runInput = false;
@@ -88,7 +95,7 @@ public class GameInputs : MonoBehaviour{
             counterCamModeInput += Time.deltaTime;
 
         }
-        else if ((Input.GetKeyUp(changeCameraMode_Keyboard) || Input.GetKeyUp(changeCameraMode_Joystick)) && counterCamModeInput > maxTime)
+        else if ((Input.GetKeyUp(changeCameraMode_Keyboard) || Input.GetKeyUp(changeCameraMode_Joystick)))
         {
             counterCamModeInput = 0;
             camModeInput = true;
@@ -96,6 +103,11 @@ public class GameInputs : MonoBehaviour{
         else
         {
             counterCamModeInput = 0;
+            camModeInput = false;
+        }
+
+        if(nearEnemies.targets.Count < 1)
+        {
             camModeInput = false;
         }
     }
@@ -233,6 +245,15 @@ public class GameInputs : MonoBehaviour{
         if(Input.GetKeyUp(godMode_Keyboard) || Input.GetKeyUp(godMode_Joystick))
         {
             godMode = !godMode;
+        }
+
+        if (godMode)
+        {
+            godModeUI.SetActive(true);
+        }
+        else
+        {
+            godModeUI.SetActive(false);
         }
     }
 
