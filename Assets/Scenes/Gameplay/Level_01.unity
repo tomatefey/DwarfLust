@@ -1227,7 +1227,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4271259173440486, guid: 3b2cb0910a75c774a9c2cec1798f983f, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114831030715996260, guid: 3b2cb0910a75c774a9c2cec1798f983f,
         type: 2}
@@ -2667,7 +2667,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 17.68, y: 0, z: 0}
 --- !u!81 &1740251506
 AudioListener:
